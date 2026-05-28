@@ -1,0 +1,28 @@
+# Variables de entorno y secretos
+.env
+*.env
+.env.local
+.env.production
+
+# Datos de contenedores (volúmenes locales)
+data/
+letsencrypt/
+certs/
+
+# Logs
+*.log
+logs/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Certificados y claves
+*.pem
+*.key
+*.crt
+*.p12
+
+# Backups
+*.bak
+*.backup
